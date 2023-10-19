@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear fix</title>
+    <style>
+       div{
+        border: 3px solid #4CAF50;
+  padding: 5px;
+       } 
+       img{
+        float: right;
+       }
+       .img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<body>
+    <h2>without clearfix</h2>
+    <div>
+        <img src="/assets/krishna img.jpeg" alt="lord krishna" height="170px" width="170px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet necessitatibus illum amet ab praesentium iusto enim aliquam est. Similique!
+    </div>
+    <br><br>
+    <h2 style="clear:right">With New Modern Clearfix</h2>
+<p>Add the clearfix hack to the containing element, to fix this problem:</p>
+
+<div class="clearfix">
+  <img class="img2" src="/assets/ganapati image.jpeg" alt="lord ganesha" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+</body>
+</html>

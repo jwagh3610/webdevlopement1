@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conbinator</title>
+    <style>
+        /* div p {
+          background-color: yellow;
+        }
+        div >p{
+            background-color: aqua;
+        }
+        div+p{
+            background-color: brown;
+        } */
+        div~p{
+            background-color: greenyellow;
+        }
+        </style>
+</head>
+<body>
+    <!-- There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~) -->
+<div>
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    <section><p>Paragraph 3 in the div.</p></section>
+  </div>
+  
+  <p>Paragraph 4. Not in a div.</p>
+  <p>Paragraph 5. Not in a div.</p>
+  <!-- All CSS Combinator Selectors
+Selector	Example	Example description
+element element	div p	Selects all <p> elements inside <div> elements
+element>element	div > p	Selects all <p> elements where the parent is a <div> element
+element+element	div + p	Selects the first <p> element that are placed immediately after <div> elements
+element1~element2	p ~ ul	Selects every <ul> element that are preceded by a <p> element -->
+
+  
+</body>
+</html>

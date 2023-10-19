@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        /* a.text{
+            color: hotpink;
+        } */
+        a:visited{
+            color: green;
+            text-decoration: none;
+            background-color: aqua;
+        }
+       a:link{
+        color: red;
+        text-decoration: none;
+        background-color: brown;
+       }
+a:hover{
+    color: hotpink;
+    text-decoration: underline;
+    background-color: yellow;
+}
+a:active{
+    color: blue; 
+    text-decoration: underline;
+    background-color: black;
+}
+a.hot:link,a.hot:visited{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.hot:hover,a.hot:active{
+    background-color: crimson;
+}
+a.coldest:link{color: aqua;}
+a.coldest:visited{color: blueviolet;}
+a.coldest:hover{color:brown}
+
+a.learner:link{color: rgb(255, 0, 230);}
+a.learner:visited{color: rgb(238, 10, 56);}
+a.learner:hover{color:rgb(195, 226, 16)}
+
+a.colder:link{color: aqua;}
+a.colder:visited{color: blueviolet;}
+a.colder:hover{font-size: larger;}
+
+a.learning:link{color: aqua;}
+a.learning:visited{color: blueviolet;}
+a.learning:hover{font-family: monospace;}
+
+a.coldest:link{color: aqua;}
+a.coldest:visited{color: blueviolet;}
+a.coldest:hover{color:brown}
+    </style>
+</head>
+<body>
+    <a href="" class="text">Text Link</a><br>
+
+    <a href="" class="hot">Hot Link</a><br><br>
+
+
+    <a href="" class="coldest">Cold Link</a>
+    <a href="" class="learner">Learn Link</a> 
+    <a href="" class="colder">Cold Link</a>
+    <a href="" class="learning">Learn Link</a> 
+    <a href="" class="cool">Cold Link</a>
+    <a href="" class="lear">Learn Link</a> 
+</body>
+</html>

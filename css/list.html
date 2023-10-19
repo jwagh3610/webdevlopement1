@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+        .jay{
+            list-style-type: disc;
+
+        }
+        .jay1{
+            list-style-position: outside;
+        }
+        .wagh{
+            list-style-position: inside;
+        }
+        .jay2{
+            background-color: lightcoral;
+            padding: 20px;
+
+        }
+        .jay3{
+            background-color: cadetblue;
+            padding: 30px;
+        }
+        .jay2 li{
+            background-color: rgb(212, 99, 229);
+            color: black;
+            padding: 5px;
+            margin-left:35px;
+        }
+        .jay3 li{
+            background-color: rgb(157, 205, 109);
+            color: rgb(13, 14, 13);
+            padding: 5px;
+           
+        }
+        #dev{
+background-color: rgb(177, 139, 69);
+padding: 20px;
+        }
+        #dev li{ 
+            background-color: aqua;
+            padding: 5px;
+            color: black;
+            margin: 5px;
+        }
+        #dev:nth-child(even){
+            background-color: blueviolet;
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <ul class="jay">
+        <li>coffe</li>
+        <li>tea</li>
+        <li>coconut water</li>
+    </ul>
+    <ol class="jay2">
+        <li>coffe</li>
+        <li>tea</li>
+        <li>coconut water</li>
+    </ol>
+    <ul class="jay3">
+        <li>coffe</li>
+        <li>tea</li>
+        <li>coconut water</li>
+    </ul>
+    <ul class="jay1">
+        <li>coffe Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, illo qui? Voluptatum omnis unde error, eum provident aut quisquam assumenda! </li>
+        <li>tea Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magni laudantium, reiciendis fugiat dolore expedita iusto ab corporis reprehenderit eius!</li>
+        <li>coconut water Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, numquam? Adipisci nemo repellat consequatur fuga quos perferendis earum aperiam accusamus!</li>
+    </ul>
+    <ul class="wagh">
+        <li>coffe Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque qui voluptas voluptatum! Necessitatibus dolor ipsam, iste quasi quae quos nam.</li>
+        <li>tea Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos reiciendis velit aperiam ut quia iste unde numquam dolores ullam aut!</li>
+        <li>coconut water Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quo architecto necessitatibus adipisci eaque iste repellendus excepturi explicabo numquam praesentium.</li>
+    </ul>
+    <!-- Homework -->
+    <ul id="dev">
+        <li>Krishna</li>
+        <li>Ganapati</li>
+        <li>Hanuman</li>
+        <li>Krishna</li>
+        <li>Ganapati</li>
+        <li>Hanuman</li>
+    </ul>
+    <ol class="god">
+        <li>Krishna</li>
+        <li>Ganapati</li>
+        <li>Hanuman</li>
+        <li>Krishna</li>
+        <li>Ganapati</li>
+        <li>Hanuman</li>
+    </ol>
+
+</body>
+</html>

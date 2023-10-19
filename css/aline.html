@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aline</title>
+    <style>
+        .center {
+  margin: 10px 10px;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px 10px 10px 10px;
+}
+        img {
+  display: block;
+  margin-left:auto ;
+  margin-right: auto;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+.centerr {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+.centerr p {
+  line-height:1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.centerrr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
+
+    </style>
+</head>
+<body>
+    <h2>Center Align Elements</h2>
+<p>To horizontally center a block element (like div), use margin: auto;</p>
+
+<div class="center">
+  <p>Hello World!</p>
+</div>
+<br>br <h2>Center an Image</h2>
+<p>To center an image, set left and right margin to auto, and make it into a block element.</p>
+
+<img src="/assets/ganapati image.jpeg" alt="lord ganapati" style="width:40%">
+<br><br>
+<h2>Center Text</h2>
+
+<div class="center">
+  <p>This text is centered.</p>
+</div>
+<!-- Left and Right Align - Using position
+One method for aligning elements is to use position: absolute; -->
+<br><br>
+<!-- use postion: property to alline
+use float property to alline 
+use clear fix property-->
+<h2>Center with line-height</h2>
+
+<p>In this example, we use the line-height property with a value that is equal to the height property to center the div element:</p>
+
+<div class="centerr">
+  <p>I am vertically and horizontally centered.</p>
+</div>
+<!-- line height is for vertical text alline  -->
+<br><br>
+<h2>Flexbox Centering</h2>
+
+<p>A container with both the justify-content and the align-items properties set to <em>center</em> will align the item(s) in the center (in both axis).</p>
+
+<div class="centerrr">
+  <p>I am vertically and horizontally centered.</p>
+</div>
+</body>
+</html>
